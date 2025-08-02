@@ -1,7 +1,6 @@
-# 📁 Super OS - Project Structure
+# 🌲 Super OS - Intelligent Project Map
 
 ./
-├── .gitignore
 ├── ObeyX/
 │   ├── agents/
 │   │   ├── plug_and_play.py
@@ -22,6 +21,7 @@
 │   │   ├── auto_model_downloader.py
 │   │   ├── download_model.py
 │   │   ├── models/
+│   │   │   ⚠️ (empty)
 │   │   ├── transcriber.py
 │   ├── command_executor/
 │   │   ├── execute.py
@@ -35,6 +35,7 @@
 │   │   ├── voice_to_text.py
 │   ├── core_language_selector.py
 │   ├── dispatcher/
+│   │   ⚠️ (empty)
 │   ├── generator/
 │   │   ├── generator.py
 │   ├── language/
@@ -43,12 +44,16 @@
 │   │   ├── run_language.py
 │   ├── language_detector.py
 │   ├── listeners/
+│   │   ⚠️ (empty)
 │   ├── logic/
+│   │   ⚠️ (empty)
 │   ├── model_downloader.py
 │   ├── models/
 │   │   ├── model_dispatcher.py
 │   ├── nlp/
+│   │   ⚠️ (empty)
 │   ├── obeyx/
+│   │   ⚠️ (empty)
 │   ├── processor/
 │   │   ├── main.py
 │   ├── smart_assistant/
@@ -63,6 +68,7 @@
 │   │   ├── text_cleaner/
 │   │   │   ├── cleaner.py
 │   ├── vision/
+│   │   ⚠️ (empty)
 │   ├── voice/
 │   │   ├── audio_analyzer.py
 │   │   ├── language_detector.py
@@ -71,14 +77,19 @@
 │   │   ├── speech_to_text.py
 │   │   ├── voice_config.py
 │   │   ├── voice_core.py
+├── auto_obeyx_push.sh
 ├── auto_push.sh
 ├── boot/
+│   ⚠️ (empty)
 ├── config/
+│   ⚠️ (empty)
 ├── core/
 │   ├── config_manager.py
 │   ├── kernel/
+│   │   ⚠️ (empty)
 │   ├── obeyx_boot/
 │   │   ├── boot_ai_analyzer.py/
+│   │   │   ⚠️ (empty)
 │   │   ├── config/
 │   │   │   ├── __init__.py
 │   │   │   ├── boot_config.py
@@ -109,6 +120,7 @@
 │   ├── session/
 │   │   ├── ultimate_session.py
 │   ├── system/
+│   │   ⚠️ (empty)
 ├── docs/
 │   ├── Project_Overview.txt
 ├── dream/
@@ -123,16 +135,23 @@
 │   │   ├── weekly.py
 │   │   ├── weekly_report.txt
 ├── drivers/
+│   ⚠️ (empty)
 ├── generate_structure.py
 ├── interface/
 │   ├── cli/
+│   │   ⚠️ (empty)
 │   ├── gui/
+│   │   ⚠️ (empty)
 ├── main.py
 ├── models/
+│   ⚠️ (empty)
 ├── obeyx_ai_core/
 │   ├── brain/
+│   │   ⚠️ (empty)
 │   ├── commands/
+│   │   ⚠️ (empty)
 │   ├── perception/
+│   │   ⚠️ (empty)
 ├── obeyx_boot/
 │   ├── ai_drivers/
 │   │   ├── audio.py
@@ -158,26 +177,43 @@
 │   ├── obeyx_boot/
 │   │   ├── ai/
 │   │   │   ├── auto_debug/
+│   │   │   │   ⚠️ (empty)
 │   │   │   ├── brain/
+│   │   │   │   ⚠️ (empty)
 │   │   │   ├── vision_check/
+│   │   │   │   ⚠️ (empty)
 │   │   │   ├── voice_boot/
+│   │   │   │   ⚠️ (empty)
 │   │   ├── boot_config/
 │   │   │   ├── hardware_profiles/
+│   │   │   │   ⚠️ (empty)
 │   │   │   ├── modes/
+│   │   │   │   ⚠️ (empty)
 │   │   │   ├── themes/
+│   │   │   │   ⚠️ (empty)
 │   │   ├── core/
 │   │   │   ├── bootloader/
+│   │   │   │   ⚠️ (empty)
 │   │   │   ├── device_manager/
+│   │   │   │   ⚠️ (empty)
 │   │   │   ├── init/
+│   │   │   │   ⚠️ (empty)
 │   │   │   ├── io_manager/
+│   │   │   │   ⚠️ (empty)
 │   │   ├── system/
 │   │   │   ├── logs/
+│   │   │   │   ⚠️ (empty)
 │   │   │   ├── mini_os/
+│   │   │   │   ⚠️ (empty)
 │   │   │   ├── shell/
+│   │   │   │   ⚠️ (empty)
 │   │   ├── tools/
 │   │   │   ├── hardware_tools/
+│   │   │   │   ⚠️ (empty)
 │   │   │   ├── perf_check/
+│   │   │   │   ⚠️ (empty)
 │   │   │   ├── self_repair/
+│   │   │   │   ⚠️ (empty)
 │   ├── power_optimizer.py
 │   ├── utils/
 │   │   ├── errors.py
@@ -200,6 +236,7 @@
 │   │   ├── secure_boot.py
 │   ├── ai_support/
 │   │   ├── guardian_ai_core.py
+├── obeyx_tree_map.py
 ├── organize_super_os.sh
 ├── prediction/
 │   ├── future_failure_predictor.py
@@ -208,15 +245,23 @@
 ├── super_os/
 │   ├── obeyx_guardian/
 │   │   ├── ai_support/
+│   │   │   ⚠️ (empty)
 ├── system_core/
 │   ├── drivers/
 │   │   ├── ai_models/
+│   │   │   ⚠️ (empty)
 │   │   ├── audio/
+│   │   │   ⚠️ (empty)
 │   │   ├── video/
+│   │   │   ⚠️ (empty)
 │   ├── kernel/
+│   │   ⚠️ (empty)
 │   ├── user_interface/
+│   │   ⚠️ (empty)
 ├── test_speech.py
 ├── tests/
+│   ⚠️ (empty)
 ├── thermal/
 │   ├── ai_thermal_controller.py
 ├── utils/
+│   ⚠️ (empty)
