@@ -1,0 +1,5 @@
+venv-super/
+__pycache__/
+*.pyc
+*.log
+*.swp
