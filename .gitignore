@@ -1,5 +1,8 @@
 venv-super/
 __pycache__/
 *.pyc
-*.log
-*.swp
+*.pyo
+*.pyd
+.env
+.env.*
+.DS_Store
